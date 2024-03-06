@@ -1,0 +1,465 @@
+body {
+    overflow: hidden;
+    font-family: math;
+}
+
+#div1 {
+    position: absolute;
+    background-color: black;
+    width: 101vw;
+    height: 101vh;
+    top: 0;
+    left: 0;
+    display: flex;
+}
+
+#webTitle {
+    position: absolute;
+    font-size: 6vw;
+    margin-left: 50%;
+    margin-top: 85vh;
+    transform: translateX(-50%);
+    color: #dffe00;
+    letter-spacing: 0.6vw;
+    
+}
+
+#go {
+    position: absolute;
+    background-color: #dffe00;
+    font-size: 1.3vw;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 0.5vw;
+    width: 15vw;
+    height: 5vh;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    margin-top: 2vh;
+    margin-left: 83vw;
+} #go:hover {
+    background-color: #000000;
+    color: #dffe00;
+    cursor: pointer;
+    transition: ease, 1s;
+    border-color: #dffe00;
+}
+
+#div12 {
+    position: absolute;
+    background-color: #dffe00;
+    width: 35vw;
+    height: 63vh;
+    top: 44%;
+    left: 50%;
+    border-radius: 0.5vw;
+    transform: translate(-50%, -50%);
+    box-shadow: inset 0vw 0vw 0.5vw black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 1.5s;
+}
+
+#welText {
+    position: absolute;
+    text-align: justify;
+    width: 25vw;
+    font-size: 1.6vw;
+    line-height: 4vh;
+    transition: ease 1s;
+}
+
+#seeApps {
+    position: absolute;
+    background-color: #000000;
+    font-size: 1.3vw;
+    border-style: solid;
+    border-color: #000000;
+    color: #dffe00;
+    border-radius: 0.5vw;
+    width: 10vw;
+    height: 5vh;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    margin-top: 50vh;
+    margin-left: 20vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+} #seeApps:hover {
+    background-color: #dffe00;
+    box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+    color: #000000;
+    cursor: pointer;
+    transition: ease, 1s;
+    border-color: #000000;
+}
+
+#div13 {
+    position: absolute;
+    background-color: #000000;
+    display: block;
+    border-color: #dffe00;
+    border-style: solid;
+    width: 53vw;
+    height: 55vh;
+    margin-top: 20vh;
+    margin-left: -55vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.5vw black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: ease 1.5s;
+}
+
+#div14 {
+    position: absolute;
+    background-color: #000000;
+    display: block;
+    border-color: #000000;
+    border-style: solid;
+    width: 90vw;
+    height: 75vh;
+    margin-top: 20vh;
+    margin-left: 125vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.5vw black;
+    transition: ease 1.5s;
+}
+
+#bankApp {
+    position: absolute;
+    background-color: #dffe00;
+    display: block;
+    border-color: #dffe00;
+    border-style: solid;
+    width: 35vw;
+    height: 30vh;
+    margin-top: 20vh;
+    margin-left: 5vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.8vw black;
+    transition: ease 1.5s;
+}
+
+#dash {
+    position: absolute;
+    background-color: #000000;
+    display: block;
+    border-color: #dffe00;
+    border-style: solid;
+    width: 33vw;
+    height: 75vh;
+    margin-top: 0vh;
+    margin-left: 60vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.8vw #dffe00;
+    transition: ease 1.5s;
+}
+
+
+#ethBal1 {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.3vw;
+    margin-top: 2vh;
+    margin-left: 1vw;
+}
+
+#at1 {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.8vw;
+    font-weight: bolder;
+    bottom: -2vh;
+    right: 1vw;
+}
+
+#at2 {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.8vw;
+    font-weight: bolder;
+    color: white;
+    bottom: -2vh;
+    right: 1vw;
+}
+
+#depoIn {
+    position: absolute;
+    margin-top: 8vh;
+    margin-left: 2vw;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    border-radius: 0.3vw;
+    border-style: none;
+    font-size: 1.3vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: -0.2vw 0.2vw 0.1vw black;
+    
+} #depoIn:focus {
+    outline: none;
+}
+
+#depositBut {
+        position: absolute;
+        background-color: #000000;
+        font-size: 1.3vw;
+        border-style: solid;
+        border-color: #000000;
+        color: #dffe00;
+        border-radius: 0.5vw;
+        width: 10vw;
+        height: 7vh;
+        font-weight: 700;
+        letter-spacing: 0.2vw;
+        margin-top: 15vh;
+        margin-left: 2vw;
+        box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+    } #depositBut:hover {
+        background-color: #dffe00;
+        box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+        color: #000000;
+        cursor: pointer;
+        transition: ease, 1s;
+        border-color: #000000;
+    }
+
+
+#withBut {
+    position: absolute;
+    background-color: #000000;
+    font-size: 1.3vw;
+    border-style: solid;
+    border-color: #000000;
+    color: #dffe00;
+    border-radius: 0.5vw;
+    width: 10vw;
+    height: 10vh;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    margin-top: 10.5vh;
+    margin-left: 23vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+} #withBut:hover {
+    background-color: #dffe00;
+    box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+    color: #000000;
+    cursor: pointer;
+    transition: ease, 1s;
+    border-color: #000000;
+}
+
+#ethIn {
+    position: absolute;
+    text-align: center;
+    align-items: center;
+    background-color: rgba(0, 255, 255, 0);
+    width: 3.5vw;
+    font-size: 1.6vw;
+    font-weight: bolder;
+    margin-top: 12vh;
+    margin-left: 17.5vw;
+}
+
+#eth1 {
+    position: absolute;
+
+    font-size: 1.8vw;
+    font-weight: bolder;
+    margin-top: 16vh;
+    margin-left: 17.7vw;
+}
+
+#wBal {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #dffe00;
+    top: 2vh;
+    right: 1vw;
+}
+
+#mmVol {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #dffe00;
+    top: 2vh;
+    left: 1vw;
+}
+
+#divP {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 10vh;
+    margin-left: 3vw;
+}
+
+#divL {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 10vh;
+    margin-left: 23vw;
+}
+
+#divM {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 32vh;
+    margin-left: 23vw;
+}
+
+#divCD {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 32vh;
+    margin-left: 3vw;
+}
+
+#divX1 {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 48vh;
+    margin-left: 3vw;
+}
+
+#divX3 {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 48vh;
+    margin-left: 23vw;
+}
+
+.valDash {
+    position: absolute;
+    width: 7vw;
+    background-color: rgba(224, 254, 0, 0);
+    font-size: 1.6vw;
+    margin-top: 2vh;
+    color:#dffe00;
+}
+
+.desText {
+    position: absolute;
+    background-color: #e0fe0000;
+    width: 7vw;
+    margin-top: 7vh;
+}
+
+#divD {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 10vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#divR {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 32vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#divX2 {
+    position: absolute;
+    width: 7vw;
+    height: 10vh;
+    color: white;
+    font-size: 1.2vw;
+    text-align: center;
+    background-color: #d2696900;
+    margin-top: 48vh;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#myRefCode {
+    position: absolute;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #dffe00;
+    top: 26vh;
+    left: 3.5vw;
+}
+
+#codeLink {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.5vw;
+    font-weight: bolder;
+    color: #ffffff;
+    top: -3vh;
+    left: 12.5vw;
+}
+
+
+#opti {
+    position: absolute;
+    background-color: #dffe00;
+    font-size: 1.3vw;
+    border-style: solid;
+    border-color: #000000;
+    color: #000000;
+    border-radius: 0.5vw;
+    width: 10vw;
+    height: 7vh;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    margin-top: 65vh;
+    margin-left: 1.5vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+} #opti:hover {
+    background-color: #dffe00;
+    box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+    color: #000000;
+    cursor: pointer;
+    transition: ease, 1s;
+    border-color: #000000;
+}
