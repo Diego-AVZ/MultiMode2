@@ -1,6 +1,6 @@
 body {
     overflow: hidden;
-    font-family: math;
+    font-family: IBM Plex Sans,sans-serif;
 }
 
 #div1 {
@@ -70,6 +70,35 @@ body {
     transition: ease 1s;
 }
 
+#SignDisclaimer {
+    position: absolute;
+    background-color: #000000;
+    font-size: 1.3vw;
+    border-style: solid;
+    border-color: #000000;
+    color: #dffe00;
+    border-radius: 0.5vw;
+    width: 10vw;
+    height: 5vh;
+    font-weight: 700;
+    letter-spacing: 0.2vw;
+    margin-top: 51vh;
+    margin-left: 22vw;
+    box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+} #SignDisclaimer:hover {
+    background-color: #dffe00;
+    box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+    color: #000000;
+    cursor: pointer;
+    transition: ease, 1s;
+    border-color: #000000;
+}
+
+#discText{
+    position: absolute;
+    line-height: 2vh;
+}
+
 #seeApps {
     position: absolute;
     background-color: #000000;
@@ -130,7 +159,7 @@ body {
 #bankApp {
     position: absolute;
     background-color: #dffe00;
-    display: block;
+    display: none;
     border-color: #dffe00;
     border-style: solid;
     width: 35vw;
@@ -181,6 +210,16 @@ body {
     font-size: 1.8vw;
     font-weight: bolder;
     color: white;
+    bottom: -2vh;
+    right: 1vw;
+}
+
+#at3 {
+    position: absolute;
+    text-align: justify;
+    font-size: 1.8vw;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
     bottom: -2vh;
     right: 1vw;
 }
@@ -435,8 +474,8 @@ body {
     font-size: 1.5vw;
     font-weight: bolder;
     color: #ffffff;
-    top: -3vh;
-    left: 12.5vw;
+    top: -3.5vh;
+    left: 13vw;
 }
 
 
@@ -463,3 +502,356 @@ body {
     transition: ease, 1s;
     border-color: #000000;
 }
+
+#signDisc{
+    position: absolute;
+    display: none;
+    width: 90%;
+    height: 90%;
+    font-size: 1vw;
+    background-color: #dffe00;
+}
+
+#guide1 {
+    position: absolute;
+    background-color: #000000;
+    display: block;
+    border-color: #000000;
+    border-style: none;
+    width: 55vw;
+    height: 60vh;
+    margin-top: 5vh;
+    margin-left: -1vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.8vw black;
+    transition: ease 1.5s;
+}
+
+#pas1 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 1vh 1vw;
+}
+
+#pas2 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 1vh 20.5vw;
+}
+
+#pas3 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 1vh 40vw;
+}
+
+#pas4 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 36vh 1vw;
+}
+
+#pas5 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 36vh 20.5vw;
+}
+
+#pas6 {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 15vw;
+    height: 25vh;
+    padding: 1vw;
+    margin: 36vh 40vw;
+}
+
+.pasNum {
+    position: absolute;
+    font-size: 2vw;
+    background-color: #000000;
+    color: #dffe00;
+    border-color: #dffe00;
+    border-style: solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1vw;
+    width: 4vw;
+    height: 4vw;
+    margin: -3vh -1.3vw;
+}
+
+.pasT {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: 700;
+    margin: -1vh 3.3vw;
+}
+
+.past {
+    position: absolute;
+    text-align: center;
+    font-size: 1.3vw;
+    margin: 10vh 0.3vw;
+    width: 14vw;
+}
+
+#appDash {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 30vw;
+    height: 5vh;
+    padding: 1vw;
+    margin: 76vh 0vw;
+    border-style: solid;
+    box-shadow: 0.3vw 0.3vw 0vw rgb(107, 137, 63);
+} #appDash:hover {
+    box-shadow: 0.2vw 0.2vw 0vw rgb(86, 110, 51);
+    background-color: #e3ff12;
+    cursor: pointer;
+    transition: ease, 1s;
+    letter-spacing: 0.1vw;
+}
+
+#aptext{
+    position: absolute;
+    text-align: justify;
+    font-size: 3vw;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    bottom: -5vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#allDapps {
+    position: absolute;
+    background-color: #dffe00;
+    border-radius: 1vw;
+    width: 56vw;
+    height: 63vh;
+    padding: 1vw;
+    /*margin: 4vh -0.3vw;*/ 
+    margin: 100vh -0.3vw;
+    border-style: solid;
+    transition: ease, 0.5s;
+    
+}
+
+
+.appIcon {
+    position: absolute;
+    background-color: #000000;
+    border-radius: 1vw;
+    width: 10vw;
+    height: 10vw;
+    padding: 1vw;
+    color: #dffe00;
+    border-style: solid;
+    border-color: #dffe00;
+    box-shadow: 0.3vw 0.3vw 0vw rgb(107, 137, 63);
+
+} .appIcon:hover {
+    box-shadow: 0.2vw 0.2vw 0vw rgb(86, 110, 51);
+    background-color: #000000;
+    cursor: pointer;
+    transition: ease, 1s;
+    letter-spacing: 0.1vw;
+}
+
+.appIT {
+    position: absolute;
+    font-size: 2vw;
+    font-weight: bolder;
+    color: #ffffff;
+    bottom:-2vh;
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+#icon1{
+    margin: 2vh 1vw;
+}
+
+#icon2 {
+    margin: 2vh 14.5vw;
+}
+
+#icon3 {
+    margin: 2vh 28.5vw;
+}
+
+#icon4 {
+    margin: 2vh 42.5vw;
+}
+
+#icon5 {
+    margin: 29vh 1vw;
+}
+
+#icon6 {
+    margin: 29vh 14.5vw;
+}
+
+#icon7 {
+    margin: 29vh 42.5vw;
+}
+
+#lotteryApp {
+    position: absolute;
+    background-color: #dffe00;
+    display: none;
+    border-color: #dffe00;
+    border-style: solid;
+    width: 37vw;
+    height: 40vh;
+    margin-top: 15vh;
+    margin-left: 5vw;
+    border-radius: 0.5vw;
+    box-shadow: inset 0vw 0vw 0.8vw black;
+    transition: ease 1.5s;
+}
+
+#myNum {
+    position: absolute;
+    margin-top: 12vh;
+    margin-left: 2vw;
+    width: 10vw;
+    height: 5vh;
+    text-align: center;
+    border-radius: 0.3vw;
+    border-style: none;
+    font-size: 1.3vw;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    box-shadow: -0.2vw 0.2vw 0.1vw black;
+    
+} #myNum:focus {
+    outline: none;
+}
+
+#lotrules {
+    position: absolute;
+    font-size: 1.4vw;
+    margin: 1vh 1vw;
+}
+
+#ticBut {
+    position: absolute;
+        background-color: #000000;
+        font-size: 1.3vw;
+        border-style: solid;
+        border-color: #000000;
+        color: #dffe00;
+        border-radius: 0.5vw;
+        width: 10vw;
+        height: 7vh;
+        font-weight: 700;
+        letter-spacing: 0.2vw;
+        margin-top: 18vh;
+        margin-left: 2vw;
+        box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+    } #ticBut:hover {
+        background-color: #dffe00;
+        box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+        color: #000000;
+        cursor: pointer;
+        transition: ease, 1s;
+        border-color: #000000;
+    }
+
+    #priceTic{
+        position: absolute;
+        font-size: 1vw;
+        margin: 9vh 2vw;
+    }
+
+    #lotFinish {
+        position: absolute;
+        margin: 12vh 15.6vw;
+        color: #000000;
+        font-size: 2vw;
+    }
+
+    #timeLotT {
+        position: absolute;
+        margin: 9.2vh 15.65vw;
+        color: #000000;
+        font-size: 1vw;
+        width: 5vw;
+    }
+
+    #checkWinnerLot {
+        position: absolute;
+        background-color: #000000;
+        font-size: 1.3vw;
+        border-style: solid;
+        border-color: #000000;
+        color: #dffe00;
+        border-radius: 0.5vw;
+        width: 10vw;
+        height: 14vh;
+        font-weight: 700;
+        letter-spacing: 0.2vw;
+        margin-top: 12vh;
+        margin-left: 25vw;
+        box-shadow: 0.2vw 0.2vw 0vw rgb(107, 137, 63);
+    } #checkWinnerLot:hover {
+        background-color: #dffe00;
+        box-shadow: 0vw 0vw 0vw rgb(107, 137, 63);
+        color: #000000;
+        cursor: pointer;
+        transition: ease, 1s;
+        border-color: #000000;
+    }
+
+    #yourTick{
+        position: absolute;
+        margin: 34.5vh 2vw
+    }
+    
+    #titYourTicks{
+        position: absolute;
+        margin: 31vh 2vw
+    }
+
+    #prizeLot{
+        position: absolute;
+        text-align: center;
+        margin: 20vh 13.25vw;
+        width: 10vw;
+    }
+
+    #msgErrorLot1{
+        position: absolute;
+        display: none;
+        text-align: center;
+        margin: 26vh 1.25vw;
+        font-size: 0.8vw;
+        color: red;
+    }
