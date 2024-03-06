@@ -616,7 +616,7 @@ goBut.addEventListener("click", async()=>{
               });
             }
             disclaimer()
-            walletConnectedEf()
+            
             seeDepositedBalance()
             getDashData()
         
@@ -797,7 +797,7 @@ async function disclaimer() {
 
         if(hasSign[0] == false){
             document.getElementById("signDisc").style.display = "block";
-        }
+        } else{walletConnectedEf();}
     
         
     } catch(error){console.error(error);}
@@ -820,6 +820,8 @@ async function signDisclaimer() {
         By proceeding with transactions, I fully acknowledge and accept the terms and conditions outlined above.`;
         
         await mmContract.methods.disclaimer(data).send({from: connectedAddress});
+		document.getElementById("SignDisclaimer").innerText = "..."
+		walletConnectedEf();
         
     } catch(error){console.error(error);}
 }
