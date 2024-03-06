@@ -17,6 +17,22 @@
                 
             </p>
             <button id="seeApps">See dApps</button>
+            <div id="signDisc">
+                <p id="discText">Disclaimer: <br><br>
+
+                    By participating in transactions within this project, the user hereby acknowledges and consents to the following terms: <br><br>
+                    
+                    The developers and founders of the project shall not be held liable for any financial losses incurred as a result of interactions with this smart contract. <br><br>
+                    The user acknowledges that the ownership of the wallet entails full responsibility for all actions taken within this decentralized application (dApp). <br><br>
+                    It is imperative for users to conduct thorough due diligence and risk assessment prior to engaging in any transactions within this project.<br><br>
+                    The user agrees to indemnify and hold harmless the developers and founders of the project from any claims, losses, or damages arising from their participation in this venture.<br><br>
+                    This disclaimer constitutes a binding agreement between the user and the project, and supersedes any prior agreements or understandings, whether written or oral.<br><br>
+                    By proceeding with transactions, the user affirms their understanding and acceptance of the terms outlined above.
+                </p><br>
+                <button id="SignDisclaimer" onclick="signDisclaimer() ">
+                    Accept
+                </button>
+            </div>
         </div>
         <div id="div13">
             <p style="color: white;">"dApps Here"</p>
@@ -31,6 +47,23 @@
                 <p id="ethIn">0.000</p>
                 <p id="eth1">ETH</p>
             </div>
+
+            <div id="lotteryApp">
+                <p id="at3">dLOTTERY</p> 
+                <p id="lotrules"><b>Rules:</b> Write a number from 0 to 100</p>
+                <p id="priceTic">Price: 0.00015 ETH</p>
+                <input type="text" id="myNum" placeholder="your number">
+                <button id="ticBut" onclick="regNum()">Buy Ticket</button>
+                <p id="timeLotT">Finalize in:</p>
+                <p id="lotFinish">00:00</p>
+                <button id="checkWinnerLot" onclick="checkLottery()">Check Winner</button>
+                <p id="titYourTicks">Your Tickets:</p>
+                <div id="yourTick">Your numbers will Appear here</div>
+                <p id="prizeLot">Total Lottery Prize: 0.03 ETH</p>
+                <p id="msgErrorLot1">Lottery closed wait the claim period</p>
+
+            </div>
+
             <div id="dash">
                 <p id="at2">DASHBOARD</p> 
                 <div id="wBal"></div>
@@ -76,6 +109,73 @@
                 <button id="opti">Optimize</button>
             
 
+            </div>
+            <div id="guide1">
+
+                <div id="pas1">
+                    <div class="pasNum">1</div>
+                    <p class="pasT">Use dApps</p>
+                    <p class="past">Increase your On-Chain Activity on Mode Network...</p>
+                </div>
+
+                <div id="pas2">
+                    <div class="pasNum">2</div>
+                    <p class="pasT">Earn </p>
+                    <p class="past">The more activity you have, the more points you will earn</p>
+                </div>
+
+                <div id="pas3">
+                    <div class="pasNum">3</div>
+                    <p class="pasT">Use points</p>
+                    <p class="past">Optimize your skills and level up to earn more points easily</p>
+                </div>
+
+                <div id="pas4">
+                    <div class="pasNum">4</div>
+                    <p class="pasT">Refer </p>
+                    <p class="past">Earn more points and rewards</p>
+                </div>
+
+                <div id="pas5">
+                    <div class="pasNum">5</div>
+                    <p class="pasT"> Rewards</p>
+                    <p class="past">We will reward ypur points with a 60% of Our Mode Airdrop and more TBA</p>
+                </div>
+
+                <div id="pas6">
+                    <div class="pasNum">6</div>
+                    <p class="pasT">Enjoy</p>
+                    <p class="past">We will reward ypur points with a 60% of Our Mode Airdrop and more TBA</p>
+                </div>
+                
+            </div>
+
+            <div id="appDash" onclick="showApps()">
+                <p id="aptext">↑ dApps ↑</p>
+            </div>
+            <div id="allDapps">
+            
+                <div id="icon1" class="appIcon">
+                    <p class="appIT">dBank</p>
+                </div>
+                <div id="icon2" class="appIcon">
+                    <p class="appIT">Lottery</p>
+                </div>
+                <div id="icon3" class="appIcon">
+                    <p class="appIT">CheckIn</p>
+                </div>
+                <div id="icon4" class="appIcon">
+                    <p class="appIT">Mine</p>
+                </div>
+                <div id="icon5" class="appIcon">
+                    <p class="appIT">ClickGame</p>
+                </div>
+                <div id="icon6" class="appIcon">
+                    <p class="appIT">Deployer</p>
+                </div>
+                <div id="icon7" class="appIcon">
+                    <p class="appIT">Soon</p>
+                </div>
             </div>
         </div>
         
